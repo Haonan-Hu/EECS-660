@@ -63,17 +63,17 @@ def readAssignments():
     return assignments
 
 def generateResult(hw):
-    hw = '../Assignments/' + hw 
-    os.system("python " + hw + " sm_10.txt > output_10.txt")
-    os.system("python " + hw + " sm_20.txt > output_20.txt")
-    os.system("python " + hw + " sm_30.txt > output_30.txt")
-    os.system("python " + hw + " sm_40.txt > output_40.txt")
-    os.system("python " + hw + " sm_50.txt > output_50.txt")
-    os.system("python " + hw + " sm_60.txt > output_60.txt")
-    os.system("python " + hw + " sm_70.txt > output_70.txt")
-    os.system("python " + hw + " sm_80.txt > output_80.txt")
-    os.system("python " + hw + " sm_90.txt > output_90.txt")
-    os.system("python " + hw + " sm_100.txt > output_100.txt")
+    hw = './Assignments/' + hw 
+    os.system("python3 " + hw + " sm_10.txt > output_10.txt")
+    os.system("python3 " + hw + " sm_20.txt > output_20.txt")
+    os.system("python3 " + hw + " sm_30.txt > output_30.txt")
+    os.system("python3 " + hw + " sm_40.txt > output_40.txt")
+    os.system("python3 " + hw + " sm_50.txt > output_50.txt")
+    os.system("python3 " + hw + " sm_60.txt > output_60.txt")
+    os.system("python3 " + hw + " sm_70.txt > output_70.txt")
+    os.system("python3 " + hw + " sm_80.txt > output_80.txt")
+    os.system("python3 " + hw + " sm_90.txt > output_90.txt")
+    os.system("python3 " + hw + " sm_100.txt > output_100.txt")
 
 def main():
     assignments = readAssignments()
