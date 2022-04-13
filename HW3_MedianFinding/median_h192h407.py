@@ -1,6 +1,7 @@
 # import necessary modules
 import sys
 
+# whatever
 
 def read_file(fileName):
     with open(fileName) as f:
